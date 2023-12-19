@@ -1,0 +1,20 @@
+[$Version]
+update_info=delete_cursor_old_default_size.upd:DeleteCursorOldDefaultSize,kcminputrc_fix_botched_5_21_0.upd:kcminputrc_fix_botched_5_21_0_pre,kcminputrc_fix_botched_5_21_0.upd:kcminputrc_fix_botched_5_21_0,kcminputrc_repeat.upd:kcminputrc_migrate_key_repeat
+
+[Libinput][1267][12185][ELAN2513:00 04F3:2F99 Mouse]
+PointerAcceleration=0.000
+PointerAccelerationProfile=1
+
+[Libinput][1739][52861][SYNA32CB:00 06CB:CE7D Mouse]
+PointerAcceleration=0.000
+PointerAccelerationProfile=1
+
+[Libinput][1739][52861][SYNA32CB:00 06CB:CE7D Touchpad]
+NaturalScroll=false
+PointerAcceleration=0.000
+PointerAccelerationProfile=1
+ScrollFactor=0.1
+TapToClick=true
+
+[Tmp]
+update_info=delete_cursor_old_default_size.upd:DeleteCursorOldDefaultSize
