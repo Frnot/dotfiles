@@ -133,13 +133,14 @@
         "base-devel",
         "sudo",
         "nano",
+        "cifs-utils",
         "git",
         "firefox",
         "keepassxc",
         "tailscale",
         "obsidian",
         "discord",
-	    "ncurses5-compat-libs"
+        "ncurses5-compat-libs"
     ],
     "parallel downloads": 2,
     "profile_config": {
