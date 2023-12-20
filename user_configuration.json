@@ -25,7 +25,7 @@
                         "fs_type": "fat32",
                         "mount_options": [],
                         "mountpoint": "/boot",
-                        "obj_id": "76b250e9-9bb2-483f-8e1f-a461372aa5bc",
+                        "obj_id": "00a97ba3-e115-4ced-aa31-608cb5cbd4e0",
                         "size": {
                             "sector_size": {
                                 "unit": "B",
@@ -46,46 +46,13 @@
                         "type": "primary"
                     },
                     {
-                        "btrfs": [
-                            {
-                                "compress": false,
-                                "mountpoint": "/",
-                                "name": "@",
-                                "nodatacow": false
-                            },
-                            {
-                                "compress": false,
-                                "mountpoint": "/home",
-                                "name": "@home",
-                                "nodatacow": false
-                            },
-                            {
-                                "compress": false,
-                                "mountpoint": "/var/log",
-                                "name": "@log",
-                                "nodatacow": false
-                            },
-                            {
-                                "compress": false,
-                                "mountpoint": "/var/cache/pacman/pkg",
-                                "name": "@pkg",
-                                "nodatacow": false
-                            },
-                            {
-                                "compress": false,
-                                "mountpoint": "/.snapshots",
-                                "name": "@.snapshots",
-                                "nodatacow": false
-                            }
-                        ],
+                        "btrfs": [],
                         "dev_path": null,
                         "flags": [],
-                        "fs_type": "btrfs",
-                        "mount_options": [
-                            "compress=zstd"
-                        ],
-                        "mountpoint": null,
-                        "obj_id": "583f488c-a022-4fea-b4ef-bbae8d1767a7",
+                        "fs_type": "ext4",
+                        "mount_options": [],
+                        "mountpoint": "/",
+                        "obj_id": "221e2760-8d3d-4c74-9c25-bc3eeacbbbbf",
                         "size": {
                             "sector_size": {
                                 "unit": "B",
@@ -112,9 +79,11 @@
     },
     "disk_encryption": {
         "encryption_type": "luks",
-        "partitions": []
+        "partitions": [
+            "221e2760-8d3d-4c74-9c25-bc3eeacbbbbf"
+        ]
     },
-    "hostname": "archlinux",
+    "hostname": "archlaptop",
     "kernels": [
         "linux"
     ],
@@ -131,16 +100,15 @@
     "offline": false,
     "packages": [
         "base-devel",
-        "sudo",
         "nano",
         "cifs-utils",
         "git",
+        "code",
         "firefox",
         "keepassxc",
         "tailscale",
         "obsidian",
-        "discord",
-        "ncurses5-compat-libs"
+        "discord"
     ],
     "parallel downloads": 2,
     "profile_config": {
