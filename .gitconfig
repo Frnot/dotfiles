@@ -1,3 +1,5 @@
 [user]
 	email = frnot@frnot.com
 	name = frnot
+[push]
+	autoSetupRemote = true
