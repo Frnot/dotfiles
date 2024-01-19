@@ -100,6 +100,8 @@
     "offline": false,
     "packages": [
         "base-devel",
+        "net-tools",
+	"traceroute",
         "nano",
         "cifs-utils",
         "git",
