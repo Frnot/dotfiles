@@ -100,7 +100,10 @@
     "offline": false,
     "packages": [
         "base-devel",
+	"pciutils",
+	"usbutils",
         "net-tools",
+	"inetutils",
 	"traceroute",
         "nano",
         "cifs-utils",

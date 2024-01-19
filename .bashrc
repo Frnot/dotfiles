@@ -8,4 +8,10 @@
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
+
 alias dotgit='/usr/bin/git --git-dir=/home/frnot/.dotfiles.git/ --work-tree=/home/frnot'
+
+
+# Created by `pipx` on 2023-12-28 05:21:24
+export PATH="$PATH:/home/frnot/.local/bin"
+source /tools/Xilinx/Vivado/2023.2/settings64.sh
