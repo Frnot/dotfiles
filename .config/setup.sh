@@ -13,7 +13,7 @@ cat >/home/frnot/.smbcred <<EOL
 username=frnot
 password=$smbpasswd
 EOL
-echo "//fileserver.lab.frnot.com/vault  /vault  cifs  credentials=/home/frnot/.smbcred,x-systemd.automount  0 0" >> /etc/fstab
+echo "//fileserver.lab.frnot.com/vault  /vault  cifs  credentials=/root/.smbcred,x-systemd.automount,uid=1000,forceuid  0 0" >> /etc/fstab
 systemctl daemon-reload
 mount -av
 
