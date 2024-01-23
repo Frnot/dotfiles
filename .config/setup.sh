@@ -9,7 +9,7 @@ dotgit checkout  # this may fail, is there a FORCE flag?
 # Setup samba share 
 echo "Configuring samba share"
 read -sp "Password for frnot@fileserver.lab.frnot.com: " smbpasswd
-cat >/home/frnot/.smbcred <<EOL
+sudo cat >/root/.smbcred <<EOL
 username=frnot
 password=$smbpasswd
 EOL
