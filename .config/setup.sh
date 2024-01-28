@@ -24,3 +24,6 @@ cd yay-bin
 makepkg -si
 cd ~
 rm -r yay-bin
+
+# configure syncthing
+systemctl enable --now syncthing --user
