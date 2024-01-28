@@ -19,7 +19,8 @@ mount -av
 
 # install yay
 ## TODO: make this non-interactive
-sudo pacman -S base-devel git
 git clone https://aur.archlinux.org/yay-bin.git
 cd yay-bin
 makepkg -si
+cd ~
+rm -r yay-bin
