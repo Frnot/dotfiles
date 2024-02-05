@@ -162,24 +162,29 @@
     "ntp": true,
     "offline": false,
     "packages": [
-        "neofetch",
-        "git",
         "pciutils",
         "usbutils",
         "net-tools",
         "inetutils",
         "traceroute",
+        "cifs-utils",
+
+        "git",
         "less",
         "nano",
+        "neofetch",
+        "duf",
+        "cowsay",
+        
         "spectacle",
-        "cifs-utils",
         "code",
         "firefox",
         "keepassxc",
         "syncthing",
         "tailscale",
         "obsidian",
-        "discord"
+        "discord",
+        "qbittorrent"
     ],
     "parallel downloads": 2,
     "profile_config": {
