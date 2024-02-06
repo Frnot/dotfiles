@@ -1,11 +1,23 @@
 # dotfiles
-various dotfiles and misc config files to make reinstalls less awful
+Various dotfiles and misc config files to make reinstalls less awful
 
-todo: 
-add notes on how to use in case i forget
-add notes on how to setup repo locally and how to update
-add a list of configs tracked by this repo
+ - 
+
+Configs tracked by this repo:
+
+archinstaller config - `user_configuration.json`
+
+Mouse settings (this is set per mouse for some reason!?) - `kcminputrc`
+
+Display settings - `.local/share/kscreen/*`
+
+Compositor settings (low latency switch) - `kwinrc`
+
+VSCode settings (maining keyboard shortcuts) - `Code - OSS/User/globalStorage/storage.json`
+
+
+TODO:
 
 add firefox config
+
 add syncthing config (does it have one?)
-add credentials file (dont add to repo)
