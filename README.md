@@ -8,6 +8,7 @@ Configs tracked by this repo:
  * Mouse settings (this is set per mouse for some reason!?) - `kcminputrc`
  * Display settings - `.local/share/kscreen/*`
  * Compositor settings (low latency switch) - `kwinrc`
+ * Power settings - `powermanagementprofilesrc`
  * VS Code settings (maining keyboard shortcuts) - `Code - OSS/User/globalStorage/storage.json`
 
 \
