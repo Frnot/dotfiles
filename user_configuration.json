@@ -186,6 +186,7 @@
         "tailscale",
         "obsidian",
         "discord",
+        "steam",
         "qbittorrent"
     ],
     "parallel downloads": 2,

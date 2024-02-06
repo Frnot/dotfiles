@@ -1,0 +1,77 @@
+[
+    {
+        "enabled": false,
+        "id": "efb81238e559b509c8b263df2001b0e2",
+        "metadata": {
+            "fullname": "xrandr-Ancor Communications Inc-VG248-E9LMQS027263",
+            "name": "DP-1"
+        },
+        "mode": {
+            "refresh": 144.00100708007812,
+            "size": {
+                "height": 1080,
+                "width": 1920
+            }
+        },
+        "overscan": 0,
+        "pos": {
+            "x": 4520,
+            "y": 600
+        },
+        "priority": 0,
+        "rgbrange": 0,
+        "rotation": 1,
+        "scale": 1,
+        "vrrpolicy": 0
+    },
+    {
+        "enabled": true,
+        "id": "650eae1cca5417e82ff4085265ced1d3",
+        "metadata": {
+            "fullname": "xrandr-Ancor Communications Inc-VG248-E3LMQS102526",
+            "name": "DP-2"
+        },
+        "mode": {
+            "refresh": 99.93000030517578,
+            "size": {
+                "height": 1080,
+                "width": 1920
+            }
+        },
+        "overscan": 0,
+        "pos": {
+            "x": 0,
+            "y": 180
+        },
+        "priority": 2,
+        "rgbrange": 0,
+        "rotation": 8,
+        "scale": 1,
+        "vrrpolicy": 0
+    },
+    {
+        "enabled": true,
+        "id": "9000a5e824615685060f539ff6826bce",
+        "metadata": {
+            "fullname": "xrandr-Acer Technologies-ED347CKR",
+            "name": "HDMI-A-2"
+        },
+        "mode": {
+            "refresh": 99.99199676513672,
+            "size": {
+                "height": 1440,
+                "width": 3440
+            }
+        },
+        "overscan": 0,
+        "pos": {
+            "x": 1080,
+            "y": 0
+        },
+        "priority": 1,
+        "rgbrange": 0,
+        "rotation": 1,
+        "scale": 1,
+        "vrrpolicy": 0
+    }
+]

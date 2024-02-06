@@ -1,0 +1,19 @@
+{
+    "id": "efb81238e559b509c8b263df2001b0e2",
+    "metadata": {
+        "fullname": "xrandr-Ancor Communications Inc-VG248-E9LMQS027263",
+        "name": "DP-1"
+    },
+    "mode": {
+        "refresh": 144.00100708007812,
+        "size": {
+            "height": 1080,
+            "width": 1920
+        }
+    },
+    "overscan": 0,
+    "rgbrange": 0,
+    "rotation": 1,
+    "scale": 1,
+    "vrrpolicy": 0
+}

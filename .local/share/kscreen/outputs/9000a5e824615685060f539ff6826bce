@@ -1,0 +1,19 @@
+{
+    "id": "9000a5e824615685060f539ff6826bce",
+    "metadata": {
+        "fullname": "xrandr-Acer Technologies-ED347CKR",
+        "name": "HDMI-A-2"
+    },
+    "mode": {
+        "refresh": 99.99199676513672,
+        "size": {
+            "height": 1440,
+            "width": 3440
+        }
+    },
+    "overscan": 0,
+    "rgbrange": 0,
+    "rotation": 1,
+    "scale": 1,
+    "vrrpolicy": 0
+}

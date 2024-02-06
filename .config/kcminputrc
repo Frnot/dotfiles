@@ -1,6 +1,13 @@
 [$Version]
 update_info=delete_cursor_old_default_size.upd:DeleteCursorOldDefaultSize,kcminputrc_fix_botched_5_21_0.upd:kcminputrc_fix_botched_5_21_0_pre,kcminputrc_fix_botched_5_21_0.upd:kcminputrc_fix_botched_5_21_0,kcminputrc_repeat.upd:kcminputrc_migrate_key_repeat
 
+[Libinput][1133][49294][Logitech MX518 Gaming Mouse]
+PointerAcceleration=-0.400
+PointerAccelerationProfile=1
+
+[Libinput][1133][49294][Logitech MX518 Gaming Mouse Keyboard]
+Enabled=false
+
 [Libinput][1267][12185][ELAN2513:00 04F3:2F99 Mouse]
 PointerAcceleration=0.000
 PointerAccelerationProfile=1
@@ -15,6 +22,9 @@ PointerAcceleration=0.000
 PointerAccelerationProfile=1
 ScrollFactor=0.1
 TapToClick=true
+
+[Libinput][3141][25903][SONiX USB DEVICE Keyboard]
+Enabled=false
 
 [Tmp]
 update_info=delete_cursor_old_default_size.upd:DeleteCursorOldDefaultSize

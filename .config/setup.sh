@@ -38,6 +38,7 @@ fi
 SAMBA_TARGET="fileserver.lab.frnot.com/vault"
 if [ $(df -h | grep "$SAMBA_TARGET" | wc -l) -eq 0 ]; then
     echo "Configuring samba share"
+    #TODO: consume all previous keypresses here
     read -sp "Enter password for frnot@$SAMBA_TARGET: " smbpasswd
     echo
     sudo tee /root/.smbcred >/dev/null <<EOL
