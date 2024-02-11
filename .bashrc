@@ -19,5 +19,5 @@ export PATH="$PATH:/home/frnot/.local/bin"
 source /tools/Xilinx/Vivado/2023.2/settings64.sh
 
 # Questa (modelsim)
-export LM_LICENSE_FILE=/tools/intelFPGA/LR-154835_License.dat
-export PATH="$PATH:/tools/intelFPGA/23.1std/questa_fse/bin/"
+export LM_LICENSE_FILE=/tools/intelFPGA_pro/LR-154835_License.dat
+export PATH="$PATH:/tools/intelFPGA_pro/23.4/questa_fse/bin"
