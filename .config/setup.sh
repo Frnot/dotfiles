@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# Enable reflector
+if ! $(systemctl is-enabled --quiet reflector); then
+    echo "Enabling reflector service"
+    sudo systemctl enable --now reflector
+fi
+
 # Generate SSH key
 SSH_KEY_FILEPATH="$HOME/.ssh/id_ed25519"
 if [ ! -f "$SSH_KEY_FILEPATH" ]; then
