@@ -162,6 +162,7 @@
     "ntp": true,
     "offline": false,
     "packages": [
+	"reflector",
         "pciutils",
         "usbutils",
         "net-tools",
