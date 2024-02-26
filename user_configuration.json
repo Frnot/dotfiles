@@ -175,9 +175,11 @@
         "nano",
         "neofetch",
         "duf",
+        "ncdu",
+        "feh",
         "glances",
         "cowsay",
-        "fortune",
+        "fortune-mod",
         
         "spectacle",
         "code",
