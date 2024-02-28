@@ -54,7 +54,7 @@ EOL
     sudo chmod 600 /root/.smbcred
     if [ $(grep "/vault " /etc/fstab | wc -l) -eq 0 ]; then
         sudo mkdir /vault
-        echo -e "\n//$SAMBA_TARGET  /vault  cifs  credentials=/root/.smbcred,x-systemd.automount,uid=1000,forceuid  0 0" | sudo tee -a /etc/fstab >/dev/null
+        echo -e "\n//$SAMBA_TARGET  /vault  cifs  credentials=/root/.smbcred,x-systemd.automount,uid=1000,forceuid,mfsymlinks  0 0" | sudo tee -a /etc/fstab >/dev/null
     fi
     sudo systemctl daemon-reload
     sudo mount -av
