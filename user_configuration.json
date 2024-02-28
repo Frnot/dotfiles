@@ -165,6 +165,7 @@
 	"reflector",
         "pciutils",
         "usbutils",
+        "alsa-utils",
         "net-tools",
         "inetutils",
         "traceroute",
