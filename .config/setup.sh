@@ -62,3 +62,7 @@ fi
 
 # configure syncthing
 systemctl enable --now syncthing --user
+
+
+# install packages with yay
+yay codium-bin vscodium-bin-marketplace vscodium-bin-features
