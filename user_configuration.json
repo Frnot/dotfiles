@@ -175,7 +175,7 @@
         "less",
         "nano",
         "bind",
-	"texlive-binextra",
+	"texlive-meta",
         "neofetch",
         "duf",
         "ncdu",
