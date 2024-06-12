@@ -162,7 +162,7 @@
     "ntp": true,
     "offline": false,
     "packages": [
-	"reflector",
+        "reflector",
         "pciutils",
         "usbutils",
         "alsa-utils",
@@ -175,7 +175,7 @@
         "less",
         "nano",
         "bind",
-	"texlive-meta",
+        "texlive-meta",
         "neofetch",
         "duf",
         "ncdu",
@@ -184,7 +184,7 @@
         "cowsay",
         "fortune-mod",
         
-	"gimp",
+        "gimp",
         "spectacle",
         "firefox",
         "keepassxc",
@@ -193,10 +193,11 @@
         "obsidian",
         "steam",
         "qbittorrent",
+        "libreoffice-still",
 
-	"verilator",
-	"iverilog",
-	"gtkwave"
+        "verilator",
+        "iverilog",
+        "gtkwave"
     ],
     "parallel downloads": 2,
     "profile_config": {

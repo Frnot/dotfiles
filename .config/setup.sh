@@ -65,4 +65,5 @@ systemctl enable --now syncthing --user
 
 
 # install packages with yay
-yay codium-bin vscodium-bin-marketplace vscodium-bin-features
+#yay codium-bin vscodium-bin-marketplace vscodium-bin-features  proton-ge-custom lutris
+# flashing anduril: avrdude usbasp
