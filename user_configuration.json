@@ -170,6 +170,7 @@
         "inetutils",
         "traceroute",
         "cifs-utils",
+	"ctags",
 
         "git",
         "less",
