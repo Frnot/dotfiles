@@ -192,7 +192,11 @@
         "tailscale",
         "obsidian",
         "steam",
-        "qbittorrent"
+        "qbittorrent",
+
+	"verilator",
+	"iverilog",
+	"gtkwave"
     ],
     "parallel downloads": 2,
     "profile_config": {
