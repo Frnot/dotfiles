@@ -16,7 +16,8 @@ alias dotgit='/usr/bin/git --git-dir=/home/frnot/.dotfiles.git/ --work-tree=/hom
 export PATH="$PATH:/home/frnot/.local/bin"
 
 # Vivado
-source /tools/Xilinx/Vivado/2023.2/settings64.sh
+export PATH="$PATH:/tools/Xilinx/Vivado/2023.2/bin"
+
 
 # Questa (modelsim)
 export LM_LICENSE_FILE=/tools/intelFPGA_pro/LR-154835_License.dat
